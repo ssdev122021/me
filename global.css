@@ -1,0 +1,94 @@
+*{
+  font-family: 'Yrsa';
+}
+.anim-delay{
+  animation-delay:1000ms
+}
+.next-line{
+  white-space: pre-line;
+}
+.hover-wiht-scale:hover {
+  transform: scale(1.01);
+}
+.top-botttom-aling{
+    position: relative;
+    top: 5px;
+  }
+  .app-name {
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff,
+      0 0 40px rgb(58, 59, 58), 0 0 80px rgb(0, 183, 255), 0 0 90px #0f0,
+      0 0 100px #0f0, 0 0 150px #0f0;
+  }
+  .footer {
+    position: relative;
+    top: 100px;
+  }
+  .navi-card {
+    background-image: linear-gradient(
+      to right,
+      #29323c,
+      #29323c,
+      #29323c,
+      #3c335a
+    );
+    border-radius: 12px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  .box {
+    border-radius: 5px;
+    box-shadow: 10px 5px 20px #282828, 0px 5px 40px #333333,
+      -20px 5px 40px #333333;
+  }
+  .custom-btn {
+    width: 130px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 7px;
+    height: 35px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+  }
+  .custom-btn1{
+    width: auto;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 7px;
+    height: 35px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to right,
+      #3c335a,
+      #352c53,
+      #3f3070,
+      #3c335a
+    );
+    box-shadow: 0 4px 10px 0 rgba(25, 33, 43, 0.75);
+  }
+  .rotate {
+    animation-duration: 5s;
+    animation-name: roted;
+    animation-iteration-count: infinite;
+  }
+  .pointer {
+    cursor: pointer;
+  }
+  .notify {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    z-index: 9999;
+  }
+  @keyframes roted {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
